@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.NegativeSignUp">
+        <methods>
+          <include name="negativeSignUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.NegativeSignUp -->
+      <class name="tests.NegativeLoginPage">
+        <methods>
+          <include name="testNegativeLoginPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.NegativeLoginPage -->
+      <class name="tests.HomePageTest">
+        <methods>
+          <include name="testBrokenLink"/>
+          <include name="openWebTest"/>
+          <include name="bottomLink"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.SignUpPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validatePositiveSignUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.SignUpPageTest -->
+      <class name="tests.ExtendReport">
+        <methods>
+          <include name="test"/>
+          <include name="startReport"/>
+          <include name="afterMethod"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.ExtendReport -->
+      <class name="tests.CheckoutPageTest">
+        <methods>
+          <include name="testCheckoutPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CheckoutPageTest -->
+      <class name="tests.DepartmentPageTest">
+        <methods>
+          <include name="departmentTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.DepartmentPageTest -->
+      <class name="tests.ShoppingCartPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="searchProduct"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.ShoppingCartPageTest -->
+      <class name="tests.BrandPageTest">
+        <methods>
+          <include name="testBrandPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.BrandPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
